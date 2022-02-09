@@ -1,2 +1,2 @@
 # CRYPTO-STORE
- e-commerce website project for level one
+ E-commerce website project for level one
