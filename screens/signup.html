@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Crypto Store</title>
+    <link rel="stylesheet" href="https://harshita-crypto-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/7fa15c8e24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navigation">
+        <div class="nav-left">
+            <a href="index.html" class="txt-l fw-black p-s m-s">Crypto&nbsp;Store</a>
+        </div>
+
+        <div class="searchbar-input">
+            <span class="icon-input">
+                <i class="fas fa-search icons"></i> Search items here
+            </span>
+
+            <input type="search" name="searchbar" class="p-s m-s input-box br-s" placeholder="">
+        </div>
+
+        <div class="nav-right">
+            <button class="btn btn-link m-m">
+                <a href="http://">Login</a>
+            </button>
+
+            <a href="/" class="txt-m fw-black p-s m-s">
+                <div class="badge">
+                    <i class="fas fa-heart icons"></i>
+                    <div class="number-badge txt-s">10</div>
+                </div> 
+            </a>
+
+            <a href="" class="txt-m fw-black p-s m-s">
+                <div class="badge">
+                    <i class="fas fa-cart-plus icons"></i>
+                    <div class="number-badge txt-s">10</div>Cart
+                </div>
+            </a>   
+        </div>
+    </nav>
+
+    <main>
+       <section class="login">
+            <form action="" method="get" class="form p-m m-m br-s">
+                <h1 class="m-s p-s txt-center">Signup</h1>
+
+                <div class="flex-column">
+                    <label for="Email" class="m-xs">Email Address:</label>
+                    <input type="email" name="Email" class="input-box p-s m-xs br-s" placeholder="abc@xyz.com">
+                </div>
+                
+                <div class="flex-column">
+                    <label for="Password" class="m-xs">Password:</label>
+                    <input type="password" name="Password" class="input-box p-s m-xs br-s" placeholder="******">
+                </div>
+                
+                <div class="flex-row p-xs m-xs">
+                    <div class="checkbox-div">
+                        <input type="checkbox" name="Remember-me" class="br-xs p-xs m-xs txt-m">
+                        <label for="Remember-me" class="fw-semibold" class="p-s m-s">I accept all Terms & Conditions</label>
+                    </div>
+                </div>
+                                
+                <div>
+                    <input type="button" value="Create New Account" class="login-btn br-s p-s m-xs fw-semibold txt-s">
+                </div>
+                
+                <div class="txt-center p-xs m-xs fw-bold">
+                    <a href="../screens/login.html">
+                        Already have an account
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
