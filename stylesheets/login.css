@@ -1,0 +1,40 @@
+.login {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: var(--lynx-grey-color);
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-link {
+    color: var(--secondary-action);
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.login-btn {
+    width: 25rem;
+    border: none;
+    color: var(--lynx-white-color);
+    background-color: var(--action-color);
+}
