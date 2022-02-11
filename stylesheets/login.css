@@ -37,4 +37,5 @@
     border: none;
     color: var(--lynx-white-color);
     background-color: var(--action-color);
+    cursor: pointer;
 }
