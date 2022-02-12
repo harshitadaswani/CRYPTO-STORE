@@ -1,4 +1,4 @@
-.searchbar-input {
+.relative {
     position: relative;
 }
 
@@ -53,12 +53,10 @@
 
 .content {
     width: 60%;
-    margin: auto;
 }
 
 .content-fluid {
     width: 50%;
-    margin: auto;
 }
 
 .border-top {
