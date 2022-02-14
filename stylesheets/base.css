@@ -55,3 +55,7 @@
 .relative {
     position: relative;
 }
+
+.flex {
+    display: flex;
+}
