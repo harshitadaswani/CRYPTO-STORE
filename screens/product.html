@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing | Crypto Store</title>
+    <link rel="stylesheet" href="https://harshita-crypto-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/7fa15c8e24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <div class="nav-left">
+                <a href="../index.html" class="txt-l fw-black p-s m-s">Crypto&nbsp;Store</a>
+            </div>
+
+            <div class="relative">
+                <span class="icon-input">
+                    <i class="fas fa-search icons"></i> Search items here
+                </span>
+
+                <input type="search" name="searchbar" class="p-s m-s input-box br-s">
+            </div>
+
+            <div class="nav-right">
+                <button class="btn btn-link m-m">
+                    <a href="./login.html">Login</a>
+                </button>
+
+                <a href="/" class="txt-m fw-black p-s m-s">
+                    <div class="badge">
+                        <i class="fas fa-heart icons"></i>
+                        <div class="number-badge txt-s">10</div>
+                    </div>
+                </a>
+
+                <a href="/" class="txt-m fw-black p-s m-s">
+                    <div class="badge">
+                        <i class="fas fa-cart-plus icons"></i>
+                        <div class="number-badge txt-s">10</div>
+                    </div>
+                </a>
+            </div>
+        </nav>
+
+        <aside class="border-right">
+            <div class="flex-row flex-space-between p-xs m-xs">
+                <div class="fw-bold txt-m">Filters</div>
+                <div class="txt-underline txt-cursor m-xs">Clear</div>
+            </div>
+            <div class="p-xs m-xs">
+                <div class="fw-bold txt-m">Price</div>
+                <div class="flex-row flex-space-between m-s nowrap">
+                    <span>100</span>
+                    <span>150</span>
+                    <span>200</span>
+
+                </div>
+                <div class="slidecontainer txt-cursor m-xs">
+                    <input type="range" min="100" max="200" value="150" class="slider" id="myRange">
+                </div>
+            </div>
+
+            <div class="p-xs m-xs flex-column">
+                <div class="fw-bold txt-m">Category</div>
+                <div class="p-xs">
+                    <input type="checkbox" name="Artwork" class="p-xs m-xs">
+                    <label for="Artwork">Artwork</label>
+                </div>
+                <div class="p-xs">
+                    <input type="checkbox" name="Photography" class="p-xs m-xs">
+                    <label for="Photography">Photography</label>
+                </div>
+                <div class="p-xs">
+                    <input type="checkbox" name="Mixed-media-art" class="p-xs m-xs">
+                    <label for="Mixed-media-art">Mixed Media Art</label>
+                </div>
+                <div class="p-xs">
+                    <input type="checkbox" name="Auditory-art" class="p-xs m-xs">
+                    <label for="Auditory-art">Auditory Art</label>
+                </div>
+            </div>
+
+            <div class="p-xs m-xs flex-column">
+                <div class="fw-bold txt-m">Rating</div>
+                <div class="p-xs">
+                    <input type="radio" name="Rating" class="p-xs m-xs">
+                    <label for="Rating">Artwork</label>
+                </div>
+                <div class="p-xs">
+                    <input type="radio" name="Rating" class="p-xs m-xs">
+                    <label for="Rating">Photography</label>
+                </div>
+                <div class="p-xs">
+                    <input type="radio" name="Rating" class="p-xs m-xs">
+                    <label for="Rating">Mixed Media Art</label>
+                </div>
+                <div class="p-xs">
+                    <input type="radio" name="Rating" class="p-xs m-xs">
+                    <label for="Rating">Auditory Art</label>
+                </div>
+            </div>
+
+            <div class="p-xs m-xs flex-column">
+                <div class="fw-bold txt-m">Sorting</div>
+                <div class="p-xs">
+                    <input type="radio" name="Sorting" class="p-xs m-xs">
+                    <label for="Sorting">Price: Low to High</label>
+                </div>
+                <div class="p-xs">
+                    <input type="radio" name="Sorting" class="p-xs m-xs">
+                    <label for="Sorting">Price: High to Low</label>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <div class="flex-row flex-align-center">
+                <h2 class="fw-semibold p-xs">Showing All Products</h2>
+                <div class="m-xs p-xs">(Showing 9 products)</div>
+            </div>
+
+            <div class="card-container br-s">
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-xs m-xs br-s">
+                    <div class="card-img relative">
+                        <img src="https://static.live.templately.com/woocommerce/2021/07/image-1-9.jpg" alt="nft card image 1" class="br-s img-responsive">
+                        <i class="fas fa-heart wishlist-btn  br-full"></i>
+                    </div>
+                    <div class="card-content flex-column flex-center">
+                        <div class="m-xs p-xs fw-bold txt-center">
+                            Dreams in Mocha and Latte
+                        </div>
+                        <h4>Top Bid</h4>
+                        <div class="price flex-row flex-center">
+                            <img src="https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg" alt="weth currency" class="currency-img">
+                            <div>0.5098</div>
+                            <div>($1,501.96)</div>
+                        </div>
+                        <button class="bid-btn br-s p-s m-xs fw-semibold txt-s">
+                            Place Bid
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+
+        <footer class="border-top">
+            <div class="footer">
+                <div class="footer-left">
+                    <a href="../index.html" class="txt-l fw-black p-s m-s">Crypto&nbsp;Store</a>
+                    <a href="./login.html" class="txt-m fw-black p-s m-s">Login</a>
+                    <a href="./signup.html" class="txt-m fw-black p-s m-s">Signup</a>
+                    <a href="./product.html" class="txt-m fw-black p-s m-s">Product</a>
+                    <a href="./cart.html" class="txt-m fw-black p-s m-s">Cart</a>
+                    <a href="./wishlist.html" class="txt-m fw-black p-s m-s">Wishlist</a>
+                </div>
+
+                <div class="footer-right border-bottom">
+                    <a href="https://github.com/harshitadaswani" target="_blank" rel="noopener noreferrer"
+                        class="txt-l fw-black p-s m-s"><i class="fab fa-github-square icons"></i></i></a>
+                    <a href="https://www.linkedin.com/in/harshitabdaswani/" target="_blank" rel="noopener noreferrer"
+                        class="txt-l fw-black p-s m-s"><i class="fab fa-linkedin icons"></i></a>
+                    <a href="https://twitter.com/harshi_daswani" target="_blank" rel="noopener noreferrer"
+                        class="txt-l fw-black p-s m-s"><i class="fab fa-twitter-square icons"></i></a>
+                </div>
+
+                <div class="footer-copyright txt-center m-auto">
+                    <p>Copyright © Crypto | Designed by Harshita Daswani</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

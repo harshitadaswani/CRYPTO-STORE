@@ -1,0 +1,72 @@
+.container {
+    display: grid;
+    min-height: 100vh;
+    height: max-content;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "aside main main"
+    "aside main main"
+    "footer footer footer";
+    margin: auto;
+}
+
+.slidecontainer {
+    width: 100%; 
+}
+
+.slider {
+    width: 90%;
+    height: 1.5rem;
+    background-color: var(--lynx-grey-color);
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+}   
+
+.card {
+    width: 18rem;
+    border: 0.1rem solid var(--lynx-grey-color);
+    height: auto;
+    cursor: pointer;
+}
+
+.bid-btn {
+    border: none;
+    background-color: var(--action-color);
+    color: var(--lynx-white-color);
+    width: 90%;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.currency-img {
+    width: 1rem;
+}
+
+.price {
+    gap: 0.5rem;
+}
+
+.wishlist-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: var(--xs-size);
+    background: var(--lynx-white-color)
+}
+
+.wishlist-btn:hover {
+    color: red;
+}
