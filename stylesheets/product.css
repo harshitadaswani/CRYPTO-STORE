@@ -35,7 +35,6 @@
 
 .card {
     width: 18rem;
-    /* background-color: var(--lynx-grey-color); */
     border: 0.1rem solid var(--lynx-grey-color);
     height: auto;
     cursor: pointer;
