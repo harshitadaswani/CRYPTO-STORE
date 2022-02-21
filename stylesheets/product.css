@@ -42,7 +42,7 @@
 
 .bid-btn {
     border: none;
-    background-color: var(--action-color);
+    background-color: var(--container-color);
     color: var(--lynx-white-color);
     width: 90%;
 }
@@ -68,5 +68,5 @@
 }
 
 .wishlist-btn:hover {
-    color: red;
+    color: var(--red-color);
 }
